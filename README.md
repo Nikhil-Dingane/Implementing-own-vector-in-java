@@ -11,15 +11,17 @@ How will I implement own vector in java:
 
 **The design approach of the vector class:**
     I am going to design the vector class according to the Vector class already present in the java. This class contains three characteristics(data members) as an array of Object class, the number of actual elements in a vector and capacity of incrementation of the vector. They will be as follows:
-class Vector
-{
-   protected Object[] elementData;
-   protected int elementCount;
-   protected int capacityIncreament;
+    #
+    
+	class Vector
+	{
+        protected Object[] elementData;
+        protected int elementCount;
+        protected int capacityIncreament;
 	
-  //methods
-  public MyVector()                                                   
-  public MyVector(int initialCapacity)                 
+  	//methods
+  	public MyVector()                                                   
+  	public MyVector(int initialCapacity)                 
 	public MyVector(int initialCapacity,int capacityIncrement)     
 	public void addElement(T obj) 
 	public boolean removeElement(T obj)
