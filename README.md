@@ -14,9 +14,6 @@ How will I implement own vector in java:
     
     class Vector
     {
- 	protected Object[] elementData;
-	protected int elementCount;
-	protected int capacityIncreament;
   	//methods
   	public MyVector(){};                                                   
   	public MyVector(int initialCapacity){};
