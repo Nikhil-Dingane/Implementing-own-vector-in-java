@@ -39,7 +39,7 @@ How will I implement own vector in java:
     public Object get(int index){};
     public void set(int index,T obj){};
     public boolean isEmpty(){};
-    public int indexOf(T obj){};
+    public int indexOf(T obj){ };
     }
 
 **How will I manage the memory when the vector grows:**
